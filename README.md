@@ -2,11 +2,11 @@
 
 Данная програма способна решать системы вида:
 
-![Formula](img\formula.png)
+![Formula](img/formula.png)
 
 где T - время запаздывания, \Lambda - большой параметр, d_{i,j} - сила связи между i-ым и j-ым уравнениями в системе. Функция F(x) представляет собой финитную функцию вида:
 
-![FinitDef](img\finit_def.png)
+![FinitDef](img/finit_def.png)
 
 Решение ищется методом Рунге-Кутта, реализованого на С++. Интерфейс для использования проброшен в python библиотеку differential_eq_py.
 
@@ -48,5 +48,5 @@ for t, x in solution:
 plt.show()
 ```  
 
-![FinitDef](img\example_1.png)
-![FinitDef](img\example_2.png)
+![FinitDef](img/example_1.png)
+![FinitDef](img/example_2.png)
